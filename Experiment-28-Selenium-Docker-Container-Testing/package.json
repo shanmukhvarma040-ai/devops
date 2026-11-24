@@ -1,0 +1,9 @@
+{
+  "name": "experiment-28-selenium-container",
+  "version": "1.0.0",
+  "description": "Selenium test cases for containerized application",
+  "main": "containerTest.js",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0"
+  }
+}

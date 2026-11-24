@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    triggers {
+        cron('H/5 * * * *')
+    }
+    stages {
+        stage('Scheduled Job') {
+            steps {
+                bat 'echo Scheduled Pipeline Running'
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Java compiled files
+*.class
+*.jar
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Operating system / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & temp files
+*.log
+temp/

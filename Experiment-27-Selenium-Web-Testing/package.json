@@ -1,0 +1,9 @@
+{
+  "name": "experiment-27-selenium",
+  "version": "1.0.0",
+  "description": "Selenium JavaScript test for Event Registration",
+  "main": "test.js",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0"
+  }
+}

@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    parameters {
+        string(name: 'NAME', defaultValue: 'Student')
+    }
+    stages {
+        stage('Welcome') {
+            steps {
+                bat 'echo Hello %NAME%'
+            }
+        }
+    }
+}
